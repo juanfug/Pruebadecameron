@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+/* Variables Css */
+
+:root {
+    --header-height: 3rem;
+    /* Colors */
+    --hue-color: 206;
+    --hue-green-color: 142;
+    --first-color: #069c54;
+    --first-color-alt: #048654;
+    --header-color: #013f58;
+    --header-color-alt: #014966;
+    --title-color: #393939;
+    --text-color: #707070;
+    --text-color-light: #a6a6a6;
+    --body-color: #fbfefd;
+    --container-color: #ffffff;
+    --white-color: #fff;
+    --green-color: hsl(var(--hue-green-color), 90%, 35%);
+    --green-color-alt: hsl(var(--hue-green-color), 90%, 45%);
+}
+
+body {
+    width: 100%x;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    display: block;
+}
+
+form {
+    margin: auto;
+    padding: 25px;
+    max-width: 900px;
+    display: block;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+table {
+    margin: auto;
+    padding: 25px;
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
